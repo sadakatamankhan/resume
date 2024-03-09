@@ -742,6 +742,11 @@ footer {
     position: fixed;
     bottom: 10px;
     right: 10px;
+
+	  position: absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 999; /* Set a high z-index value to ensure the div appears on top */ 
 }
 
 .fa-whatsapp {
@@ -754,6 +759,11 @@ footer {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+
+	  position: absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 999; /* Set a high z-index value to ensure the div appears on top */ 
 }
 
 .fa-whatsapp:hover {
@@ -761,6 +771,11 @@ footer {
 }
 
 .fa-phone {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 999; /* Set a high z-index value to ensure the div appears on top */ 
+
     background-color: #2573d3;
     color: white;
     border-radius: 100%;
